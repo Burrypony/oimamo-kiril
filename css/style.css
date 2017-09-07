@@ -314,9 +314,9 @@ a {
         -ms-flex-align: start !important;
             align-items: flex-start !important; } }
 @media screen and (max-width: 630px) {
-  .tab_mob__img_grid div img {
-    width: 150px !important;
-    height: auto !important; }
+  .main_paragraph {
+    font-size: 14px !important;
+    width: 100% !important; }
 
   .w100px_630 {
     width: 100px !important; } }
@@ -343,6 +343,10 @@ a {
 
   .w85px_480 {
     width: 85px !important; } }
+@media screen and (max-width: 420px) {
+  .tab_mob__img_grid div img {
+    width: 150px !important;
+    height: 50 !important; } }
 @media screen and (max-width: 400px) {
   .w64wv_780 {
     height: 70vh !important; } }
