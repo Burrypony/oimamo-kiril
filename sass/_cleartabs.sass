@@ -1,0 +1,42 @@
+.ui-tabs-nav
+  background-color: transparent !important
+
+.ui-widget.ui-widget-content
+  border: 0 !important
+
+.ui-tabs .ui-tabs-nav
+  border: 0 !important
+
+.ui-state-default
+  background-color: transparent !important
+  border: 0 !important
+
+.ui-state-active a, .ui-state-active a:link
+  color: black !important
+  outline: none !important
+// test
+
+.ui-state-active
+  a
+    font-weight: 700 !important
+  position: relative
+  &::before
+    content: ""
+    width: 10px
+    height: 10px
+    background-color: #12acbc
+    border-radius: 50%
+    display: block
+    position: absolute
+    left: -20px
+    top: 40%
+  &::after
+    content: ""
+    width: 10px
+    height: 10px
+    background-color: #12acbc
+    border-radius: 50%
+    display: block
+    position: absolute
+    left: calc(100% + 10px)
+    top: 40%

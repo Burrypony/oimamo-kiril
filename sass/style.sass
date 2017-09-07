@@ -1,0 +1,388 @@
+@import basic_styles
+@import flex
+@import spaces
+@import fonts
+@import var
+@import size
+@import cleartabs
+@import adapt
+
+.container
+  max-width: 1250px
+  margin: 0 auto
+
+header
+  position: fixed
+  top: 0
+  left: 0
+  height: 50px !important
+  width: 100%
+  z-index: 9999
+  background-color: #ffffff
+
+.header__nav
+  line-height: 50px
+
+.logo_size
+  width: 30px
+  height: 30px
+
+.logo_size_2x
+  width: 60px
+  height: 60px
+
+.nav_list
+  li
+    margin: 0 10px
+    font-family: $font_reef
+    color: $color_black_opacity
+
+
+.section_first
+  margin-top: 50px
+  display: flex
+  flex-direction: column
+  div
+    &:first-child
+      display: flex
+      justify-content: flex-start
+      div
+        width: 50%
+    &:last-child
+      display: flex
+      justify-content: center
+
+.title_block
+  div
+    margin: 2px
+.dumplings_wrapper
+  justify-content: flex-end !important
+
+.dumplings_img
+  height: 700px
+  width: 50%
+
+.dumplings_img2
+  height: 1350px
+  width: auto
+
+
+
+.spice_img
+  height: 200px
+  width: auto
+
+.title_menu
+  font-size: 42px
+  color: $color_black_opacity
+
+.clear_outline
+  outline: none !important
+  border: 0 !important
+
+.navbar_list
+  li
+    margin: 0 20px !important
+
+.dots_element
+  position: relative
+  &::before
+    content: ""
+    width: 8px
+    height: 8px
+    background-color: #12acbc
+    border-radius: 50%
+    display: block
+    position: absolute
+    left: -20px
+    top: 40%
+  &::after
+    content: ""
+    width: 8px
+    height: 8px
+    background-color: #12acbc
+    border-radius: 50%
+    display: block
+    position: absolute
+    left: calc(100% + 10px)
+    top: 40%
+
+.font_active_nav
+  font-weight: 700 !important
+  color: #454545
+
+.ui-state-active
+  position: relative !important
+  &::before
+    content: ""
+    width: 8px !important
+    height: 8px !important
+    background-color: #12acbc !important
+    border-radius: 50% !important
+    display: block !important
+    position: absolute !important
+    left: -20px !important
+    top: 40% !important
+  &::after
+    content: ""
+    width: 8px !important
+    height: 8px !important
+    background-color: #12acbc !important
+    border-radius: 50% !important
+    display: block !important
+    position: absolute !important
+    left: calc(100% + 10px) !important
+    top: 40% !important
+
+.ui-state-hover
+  position: relative !important
+  &::before
+    @extend .ui-state-active::before
+  &::after
+    @extend .ui-state-active::after
+
+.clear_before::before
+  content: none
+
+.clear_before::after
+  content: none
+
+.menu_item
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  width: 530px
+  span
+    margin: 5px 8px
+  div
+    margin: 5px
+    overflow: hidden
+    &:first-child
+      display: flex
+      align-items: center
+      height: 20px
+      white-space: nowrap !important
+      div
+        display: flex
+      h4
+        font-size: 22px
+        color: #000000
+    &:nth-child(2)
+      font-family: reef !important
+  span
+    font-family: reef
+
+.price_block
+  font-size: 22px
+  color: red
+
+.tabs_wrapper
+  display: flex !important
+  flex-wrap: wrap
+  justify-content: space-around
+  div
+    // min-width: 400px
+
+.tabs_wrapper>div
+  width: 500px
+
+.all_tabs_wrapper
+  //position: relative
+  //&::before
+  //  content: "\f104"
+  //  font-family : FontAwesome
+  //  font-size: 48px
+  //  position: absolute
+  //  top: 36%
+  //  left: -20px
+  //  color: rgba(71, 72, 77, 0.1)
+  //  &:hover
+  //    cursor: pointer
+  //::after
+  //  content: "\f105"
+  //  font-family : FontAwesome
+  //  font-size: 48px
+  //  position: absolute
+  //  top: 36%
+  //  left: calc(100% + 10px)
+  //  color: #12acbc
+  display: flex
+  align-items: center
+
+.phali_img
+  height: 400px
+  width: auto
+
+.red_pepper_img
+  height: 400px
+  width: auto
+
+.next_arrow
+  &:hover
+    cursor: pointer
+
+.prev_arrow
+  &:hover
+    cursor: pointer
+
+.block_row_reverse
+  transform: rotate(180deg)
+
+.hide
+  display: none !important
+
+.oval
+  width: 10px
+  height: 10px
+
+.active_logo
+  width: 14px
+  height: 14px
+
+.stars_nav
+  width: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  div
+    margin: 0 40px
+  span
+    margin: 0 8px
+    display: flex
+    justify-content: center
+    align-items: center
+    &:hover
+      cursor: pointer
+
+.contacts_block
+  display: flex
+  width: 100%
+  div
+    width: 50%
+
+.contacts>div
+  margin: 20px 0
+  width: 100%
+
+.title_contact
+  color: rgba(0, 0, 0, 0.2)
+.contacts div
+  font-family: reef
+
+.color_greenblue
+  color: #12acbc
+
+.contacts
+  z-index: 9990
+
+.contacts_list
+  margin-top: 40px
+  li
+    margin: 0 10px
+    &:hover
+      cursor: pointer
+    &:first-child
+      margin-left: 0 !important
+
+.contacts_wrapper
+  flex-direction: column
+
+.fa
+  font-size: 20px !important
+
+#tabs
+  width: 86vw !important
+  display: flex
+  flex-direction: column
+  // align-items: center
+
+.navbar_list
+  // overflow: auto
+  width: 100%
+
+.inline_flex
+  display: inline-flex !important
+
+
+.header__nav
+  width: 100% !important
+  height: 50px !important
+
+.manu_item_wrapper
+  display: flex
+  flex-direction: column
+
+footer
+  display: flex
+  justify-content: space-around
+  width: 100%
+  height: 40px
+  background-color: #242528
+  align-items: center
+  div
+    &:nth-child(2)
+      width: 136px
+      height: 17px
+      font-family: reef
+      font-size: 12px
+      font-weight: bold
+      text-align: left
+      color: rgba(255, 255, 255, 0.4)
+
+.section_third
+  display: flex
+  justify-content: space-between
+  margin: 5px 10px
+  &>div
+    width: 33%
+
+
+.image_grid
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  height: 100%
+  div
+    margin: 5px
+    height: 220px
+    width: 220px
+    img
+      width: 100%
+
+.about_us_size
+  font-size: 90px
+
+.txt_center
+  text-align: center !important
+  span
+    &>img
+      width: 100% !important
+
+.main_paragraph
+  font-size: 14px
+  line-height: 2.14
+  font-family: reef
+  color: rgba(71, 72, 77, 0.4)
+  max-width: 400px
+  margin: 20px auto 0 auto
+  width: 100%
+
+.tab_mob__img_grid
+  display: none
+  flex-wrap: wrap
+  justify-content: flex-start !important
+
+// nav
+//   margin-top: 50px
+//   background-color: #12acbc
+//   display: flex
+//   justify-content: center
+//   align-items: center
+//   flex-direction: column
+//   padding: 20px 0
+//   font-size: 20px
+// .nav-item
+//   margin: 20px 0
+//   color: #ffffff !important
+//   text-decoration: none
+//   font-family: reef

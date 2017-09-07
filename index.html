@@ -1,0 +1,3073 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>oimamo</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="http://resources/demos/style.css">
+
+  <script src="https://use.fontawesome.com/75eedf7711.js"></script>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+
+
+</head>
+<body>
+
+  <header>
+      <div class="header__nav flex_spacebetween hide_480">
+        <div class="flex_spacebetween padding_0_20">
+          <span class="flex ">
+            <img src="img/logo.svg" alt="logo" class="logo_size">
+          </span>
+          <span class="margin_0_20 flex ">
+            <img src="img/logo_text.svg" alt="logo" class="h20px">
+          </span>
+        </div>
+        <div class="padding_0_20">
+          <ul class="flex nav_list">
+            <li>Меню</li>
+            <li>Про нас</li>
+            <li>Контакти</li>
+          </ul>
+        </div>
+      </div>
+      <div class="hide_480plus flex_spacebetween h50px padding_0_20">
+          <div class="button button-toggle">
+            <img src="img/menu-button.svg" alt="logo" class="h30px">
+          </div>
+          <div>
+            <img src="img/mobile_logo.svg" alt="logo" class="h30px">
+          </div>
+          <div></div>
+      </div>
+  </header>
+  <nav class="nav">
+        <a class="nav-item" href="javascript:void(0)">Dashboard</a>
+        <a class="nav-item" href="javascript:void(0)">History</a>
+        <a class="nav-item" href="javascript:void(0)">Statistics</a>
+        <a class="nav-item" href="javascript:void(0)">Settings</a>
+    </nav>
+  <div class="title_block flex_column_center hide_780plus show_title_780">
+    <div class="flex_center top_logo_sizes">
+      <img src="img/logo.svg" alt="logo" class="logo_size_2x">
+    </div>
+    <div class="flex_center top_logo_sizes">
+      <img src="img/logo_text.svg" alt="logo" class="h85px w100per">
+    </div>
+    <div class="flex_center top_logo_sizes">
+      <img src="img/catchphrase.svg" alt="logo" class="h68px w100per">
+    </div>
+  </div>
+  <section class="section_first">
+    <div>
+      <div class="title_block flex_column_center hide_780">
+        <div class="flex_center top_logo_sizes">
+          <img src="img/logo.svg" alt="logo" class="logo_size_2x">
+        </div>
+        <div class="flex_center top_logo_sizes">
+          <img src="img/logo_text.svg" alt="logo" class="h85px w100per">
+        </div>
+        <div class="flex_center top_logo_sizes">
+          <img src="img/catchphrase.svg" alt="logo" class="h68px w100per">
+        </div>
+      </div>
+      <div class="dumplings_wrapper  w100per_780">
+        <img src="img/dumplings.png" alt="dumplings" class="dumplings_img2">
+      </div>
+    </div>
+    <div>
+      <img src="img/spice.png" alt="spice" class="spice_img">
+    </div>
+  </section>
+
+  <section class="section_second">
+    <div class="section_second__nav flex_spacebetween h250px">
+      <div class="phali_img hide_1348">
+        <img src="img/phali.png" alt="phali">
+      </div>
+      <div>
+        <h2 class="title_menu dots_element">
+         МЕНЮ
+       </h2>
+      </div>
+      <div class="red_pepper_img hide_1348">
+        <img src="img/red-pepper.png" alt="red peper">
+      </div>
+    </div>
+    <div class="container">
+      <div class="w100per flex_center">
+        <div id="tabs">
+          <div class="navbar_wrapper">
+            <ul class="inline_flex navbar_list">
+        <li><a href="#tabs-1" id="tab_link_1" class="clear_outline hover_add_dots">Холодні закуски</a></li>
+        <li><a href="#tabs-2" id="tab_link_2" class="clear_outline hover_add_dots">Салати</a></li>
+        <li><a href="#tabs-3" id="tab_link_3" class="clear_outline hover_add_dots">Перші страви</a></li>
+        <li><a href="#tabs-4" id="tab_link_4" class="clear_outline hover_add_dots">Гарніри </a></li>
+        <li><a href="#tabs-5" id="tab_link_5" class="clear_outline hover_add_dots">Гарячі страви</a></li>
+        <li><a href="#tabs-6" id="tab_link_6" class="clear_outline hover_add_dots">Тоне-меню</a></li>
+        <li><a href="#tabs-7" id="tab_link_7" class="clear_outline hover_add_dots">Випічка</a></li>
+        <li><a href="#tabs-8" id="tab_link_8" class="clear_outline hover_add_dots">Хінкалі меню</a></li>
+        <li><a href="#tabs-9" id="tab_link_9" class="clear_outline hover_add_dots">Десерти</a></li>
+      </ul>
+          </div>
+      <div class="all_tabs_wrapper ">
+        <div class="prev_arrow hide_780">
+          <img src="img/prefArrow.svg">
+        </div>
+        <div class="w100per">
+          <div id="tabs-1" class="margin_50_0">
+            <div class="tabs_wrapper w100per  length_div" id="tabs_wrapper_1">
+              <div class="manu_item_wrapper">
+                <div class="menu_item">
+                  <div>
+                    <h4>Горіхові баклажани</h4>
+                    <div>
+                      <div class="dots_block">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </div>
+                      <div class="price_block">
+                          75грн
+                      </div>
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                  <span>150грам</span>
+                </div>
+                <div class="menu_item">
+                  <div>
+                    <h4>Горіхові баклажани</h4>
+                    <div>
+                      <div class="dots_block">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </div>
+                      <div class="price_block">
+                          75грн
+                      </div>
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                  <span>150грам</span>
+                </div>
+                <div class="menu_item">
+                  <div>
+                    <h4>Горіхові баклажани</h4>
+                    <div>
+                      <div class="dots_block">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </div>
+                      <div class="price_block">
+                          75грн
+                      </div>
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                  <span>150грам</span>
+                </div>
+                <div class="menu_item">
+                  <div>
+                    <h4>Горіхові баклажани</h4>
+                    <div>
+                      <div class="dots_block">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </div>
+                      <div class="price_block">
+                          75грн
+                      </div>
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                  <span>150грам</span>
+                </div>
+              </div>
+              <div class="manu_item_wrapper">
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+            </div>
+            <div class="tabs_wrapper w100per hide length_div" id="tabs_wrapper_2">
+              <div>
+                <div class="menu_item">
+                  <div>
+                    <h4>Горіхові баклажани</h4>
+                    <div>
+                      <div class="dots_block">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </div>
+                      <div class="price_block">
+                          74грн
+                      </div>
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                  <span>150грам</span>
+                </div>
+                <div class="menu_item">
+                  <div>
+                    <h4>Горіхові баклажани</h4>
+                    <div>
+                      <div class="dots_block">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </div>
+                      <div class="price_block">
+                          74грн
+                      </div>
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                  <span>150грам</span>
+                </div>
+                <div class="menu_item">
+                  <div>
+                    <h4>Горіхові баклажани</h4>
+                    <div>
+                      <div class="dots_block">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </div>
+                      <div class="price_block">
+                          74грн
+                      </div>
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                  <span>150грам</span>
+                </div>
+                <div class="menu_item">
+                  <div>
+                    <h4>Горіхові баклажани</h4>
+                    <div>
+                      <div class="dots_block">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </div>
+                      <div class="price_block">
+                          74грн
+                      </div>
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                  <span>150грам</span>
+                </div>
+              </div>
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        74грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        74грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        74грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+            </div>
+            <div class="tabs_wrapper w100per hide length_div" id="tabs_wrapper_3">
+              <div>
+                <div class="menu_item">
+                  <div>
+                    <h4>Горіхові баклажани</h4>
+                    <div>
+                      <div class="dots_block">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </div>
+                      <div class="price_block">
+                          3454грн
+                      </div>
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                  <span>150грам</span>
+                </div>
+                <div class="menu_item">
+                  <div>
+                    <h4>Горіхові баклажани</h4>
+                    <div>
+                      <div class="dots_block">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </div>
+                      <div class="price_block">
+                          54грн
+                      </div>
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                  <span>150грам</span>
+                </div>
+                <div class="menu_item">
+                  <div>
+                    <h4>Горіхові баклажани</h4>
+                    <div>
+                      <div class="dots_block">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </div>
+                      <div class="price_block">
+                          2грн
+                      </div>
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                  <span>150грам</span>
+                </div>
+                <div class="menu_item">
+                  <div>
+                    <h4>Горіхові баклажани</h4>
+                    <div>
+                      <div class="dots_block">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </div>
+                      <div class="price_block">
+                          71грн
+                      </div>
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                  <span>150грам</span>
+                </div>
+              </div>
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        71грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        71грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        72грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        73грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="tabs-2" class="margin_50_0">
+            <div class="tabs_wrapper w100per">
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="tabs-3" class="margin_50_0">
+            <div class="tabs_wrapper w100per">
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="tabs-4" class="margin_50_0">
+            <div class="tabs_wrapper w100per">
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="tabs-5" class="margin_50_0">
+            <div class="tabs_wrapper w100per">
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                  <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                </div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="tabs-6" class="margin_50_0">
+            <div class="tabs_wrapper w100per">
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="tabs-7" class="margin_50_0">
+            <div class="tabs_wrapper w100per">
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="tabs-8" class="margin_50_0">
+            <div class="tabs_wrapper w100per">
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+              <div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+              <div class="menu_item">
+                <div>
+                  <h4>Горіхові баклажани</h4>
+                  <div>
+                    <div class="dots_block">
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </div>
+                    <div class="price_block">
+                        75грн
+                    </div>
+                  </div>
+                </div>
+                <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+                <span>150грам</span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="tabs-9" class="margin_50_0">
+        <div class="tabs_wrapper w100per">
+          <div>
+          <div class="menu_item">
+            <div>
+              <h4>Горіхові баклажани</h4>
+              <div>
+                <div class="dots_block">
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                </div>
+                <div class="price_block">
+                    75грн
+                </div>
+              </div>
+            </div>
+            <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+            <span>150грам</span>
+          </div>
+          <div class="menu_item">
+            <div>
+              <h4>Горіхові баклажани</h4>
+              <div>
+                <div class="dots_block">
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                </div>
+                <div class="price_block">
+                    75грн
+                </div>
+              </div>
+            </div>
+            <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+            <span>150грам</span>
+          </div>
+          <div class="menu_item">
+            <div>
+              <h4>Горіхові баклажани</h4>
+              <div>
+                <div class="dots_block">
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                </div>
+                <div class="price_block">
+                    75грн
+                </div>
+              </div>
+            </div>
+            <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+            <span>150грам</span>
+          </div>
+          <div class="menu_item">
+            <div>
+              <h4>Горіхові баклажани</h4>
+              <div>
+                <div class="dots_block">
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                </div>
+                <div class="price_block">
+                    75грн
+                </div>
+              </div>
+            </div>
+            <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+            <span>150грам</span>
+          </div>
+        </div>
+          <div>
+          <div class="menu_item">
+            <div>
+              <h4>Горіхові баклажани</h4>
+              <div>
+                <div class="dots_block">
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                </div>
+                <div class="price_block">
+                    75грн
+                </div>
+              </div>
+            </div>
+            <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+            <span>150грам</span>
+          </div>
+          <div class="menu_item">
+            <div>
+              <h4>Горіхові баклажани</h4>
+              <div>
+                <div class="dots_block">
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                </div>
+                <div class="price_block">
+                    75грн
+                </div>
+              </div>
+            </div>
+            <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+            <span>150грам</span>
+          </div>
+          <div class="menu_item">
+            <div>
+              <h4>Горіхові баклажани</h4>
+              <div>
+                <div class="dots_block">
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                </div>
+                <div class="price_block">
+                    75грн
+                </div>
+              </div>
+            </div>
+            <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+            <span>150грам</span>
+          </div>
+          <div class="menu_item">
+            <div>
+              <h4>Горіхові баклажани</h4>
+              <div>
+                <div class="dots_block">
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                </div>
+                <div class="price_block">
+                    75грн
+                </div>
+              </div>
+            </div>
+            <div>(горіхова начинка зі спеціями окутана смаженим баклажаном)</div>
+            <span>150грам</span>
+          </div>
+        </div>
+        </div>
+      </div>
+        </div>
+        <div class="next_arrow hide_780">
+          <img src="img/nextArrow.svg">
+        </div>
+     </div>
+     <div class="stars_nav">
+       <div class="prev_arrow prev_arrow_second">
+           <img src="img/prefArrow.svg">
+         </div>
+      <span>
+        <img src="img/logo.svg" alt="oval" class="active_logo" id="stars_nav_block_1">
+      </span>
+      <span>
+        <img src="img/oval.svg" alt="oval" class="oval" id="stars_nav_block_2">
+      </span>
+      <span>
+        <img src="img/oval.svg" alt="oval" class="oval" id="stars_nav_block_3">
+      </span>
+      <div class="next_arrow next_arrow_second">
+          <img src="img/nextArrow.svg">
+        </div>
+     </div>
+    </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section_fourth__nav section_second__nav flex_spacebetween h250px flex_between_1348">
+    <div class="w200px_1348 w100px_630">
+      <img src="img/mustard.png" alt="mushrooms" class="hide_1348 w100px_630">
+    </div>
+    <div>
+      <h2 class="title_menu dots_element" class="about_us_size">
+       Про нас
+     </h2>
+    </div>
+    <div>
+      <img src="img/grapevines-leaf.png" alt="pomegranate" class="w200px_1348 w150px_1024 w100px_630 w85px_480">
+    </div>
+  </div>
+
+  <section class="section_third">
+    <div class="image_grid hide_1024" >
+      <div>
+        <img src="img/photo-10-copy.png" alt="photo 10">
+      </div>
+      <div>
+        <img src="img/photo-12-copy.png" alt="photo 10">
+      </div>
+      <div>
+        <img src="img/photo-9-copy.png" alt="photo 10">
+      </div>
+      <div>
+        <img src="img/photo-11-copy.png" alt="photo 10">
+      </div>
+      <div>
+        <img src="img/photo-7-copy.png" alt="photo 10">
+      </div>
+      <div>
+        <img src="img/photo-8-copy.png" alt="photo 10">
+      </div>
+    </div>
+    <div class="tab_mob__img_grid">
+      <div>
+        <img src="img/photo-10-copy.png" alt="photo 10" class="img_175px_940">
+      </div>
+      <div>
+        <img src="img/photo-12-copy.png" alt="photo 10" class="img_175px_940">
+      </div>
+      <div>
+        <img src="img/photo-11-copy.png" alt="photo 10" class="img_175px_940">
+      </div>
+      <div>
+        <img src="img/photo-9-copy.png" alt="photo 10" class="img_175px_940">
+      </div>
+      <div>
+        <img src="img/photo-7-copy.png" alt="photo 10" class="img_175px_940">
+      </div>
+      <div>
+        <img src="img/photo-4-copy.png" alt="photo 10" class="img_175px_940">
+      </div>
+      <div>
+        <img src="img/photo-8-copy.png" alt="photo 10" class="img_175px_940">
+      </div>
+      <div>
+        <img src="img/photo-5-copy.png" alt="photo 10" class="img_175px_940">
+      </div>
+      <div>
+        <img src="img/photo-3-copy.png" alt="photo 10" class="img_175px_940">
+      </div>
+      <div>
+        <img src="img/photo-1-copy.png" alt="photo 10" class="display_none_940">
+      </div>
+      <div>
+        <img src="img/photo-2-copy.png" alt="photo 10" class="display_none_940">
+      </div>
+      <div>
+        <img src="img/photo-6-copy.png" alt="photo 10" class="display_none_940">
+      </div>
+
+    </div>
+    <div class="txt_center">
+      <span>
+        <img src="img/tbilisi.svg" alt="tbilisi">
+      </span>
+      <p class="main_paragraph">
+        Колись давно киянин поїхав в Тбілісі, там він знайшов затишний Тбіліський дворик, з гарним видом на гору Мтацмінада, а в тому дворику, маленьке сімейне кафе під назвою «Тбілісі», де всім заправляла красива і харизматична Ніно опору, якої давав її чоловік, а допомагала їм, ще зовсім мала, донька. Ця родина підкорила киянина своєю привітністю, як вони ставилися до кожного гостя, як з турботою вони запитували чи наївся ти, затишно вкриваючи плечі ковдрою в весняний свіжий вечір. Особливо здивував смак їжі й аромат. Ніно підійшла до гостя за сусіднім столиком і на його каверзні питання про рецепти і як домогтися такого смаку, легко посміхнулася і тихенько з акцентом зронила «Милий, ці рецепти я пронесла через роки від своєї бабці в старій книзі, яку, та отримала від своєї матері» Це питання схвилювало, і ближче до закриття сімейного кафе в близькій бесіді з Ніно вона розповіла, що всі спеції вони готують самі, донька збирає трави в горах по вихідним, а борошно для тіста хачапурі і хінкалі, вони мелють самі на млині старого друга . Так і виходить незвичайний смак, який складно повторити. Сьогодні ж, на мій подив і радість ця родина в Києві, готова смачно годувати за сімейними рецептами з старої книги і так само дбайливо вкривати плечі ковдрою, якщо раптом стане прохолодно.
+      </p>
+    </div>
+    <div class="image_grid hide_1024" >
+      <div>
+        <img src="img/photo-4-copy.png" alt="photo 10">
+      </div>
+      <div>
+        <img src="img/photo-5-copy.png" alt="photo 10">
+      </div>
+      <div>
+        <img src="img/photo-6-copy.png" alt="photo 10">
+      </div>
+      <div>
+        <img src="img/photo-3-copy.png" alt="photo 10">
+      </div>
+      <div>
+        <img src="img/photo-2-copy.png" alt="photo 10">
+      </div>
+      <div>
+        <img src="img/photo-1-copy.png" alt="photo 10">
+      </div>
+    </div>
+  </section>
+
+  <section class="section_fourth">
+    <div class="section_fourth__nav section_second__nav flex_spacebetween h250px">
+      <div class="hide_1348">
+        <img src="img/mushrooms.png" alt="mushrooms">
+      </div>
+      <div>
+        <h2 class="title_menu dots_element">
+         КОНТАКТЫ
+       </h2>
+      </div>
+      <div class="hide_1348">
+        <img src="img/pomegranate.png" alt="pomegranate">
+      </div>
+    </div>
+    <div class="contacts_block">
+
+      <div class="contacts_wrapper">
+        <div class="flex_center w100per">
+          <div class="hide_1024">
+          <img src="img/pepper.png" alt="pepper">
+        </div>
+          <div class="contacts">
+          <div>
+            <div class="title_contact">Адреса</div>
+            <div>Саксаганського 109/20</div>
+          </div>
+          <div>
+            <div class="title_contact">Години роботи</div>
+            <div>C <span class="color_greenblue">11:00</span> до <span class="color_greenblue">23:00</span></div>
+          </div>
+          <div>
+            <div class="title_contact">Телефон</div>
+            <div>+ 00 000 000 00 00</div>
+          </div>
+          <div>
+            <ul class="flex contacts_list">
+              <li>
+                <a href="https://www.facebook.com/oymamo/">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </li>
+              <li>
+                <a href="https://www.instagram.com/oy_mamo/">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://4sq.com/2xL6tFh">
+                  <i class="fa fa-foursquare" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        </div>
+        <div class="flex_center w100per hide_1024" style="margin-top: -183px;">
+          <span style="margin-right: -126px;">
+            <img src="img/khachapuri.png" alt="khachapuri">
+          </span>
+          <span style="align-self: flex-end;margin-bottom: 100px;">
+            <img src="img/marinad-rosemary.png" alt="marinad-rosemary">
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <iframe src="https://snazzymaps.com/embed/13987" width="100%" height="1000px" style="border:none;" class="map"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div></div>
+    <div>Усі права збережені © 2017</div>
+    <div>
+      <img src="img/madeby-white.svg" alt="pure agency">
+    </div>
+  </footer>
+
+
+
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
