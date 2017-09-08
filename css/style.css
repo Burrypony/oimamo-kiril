@@ -287,7 +287,7 @@ a {
     height: 65vh !important; }
 
   .spice_img {
-    height: 150px !important;
+    height: 125px !important;
     width: auto !important; }
 
   .dots_block {
@@ -321,6 +321,21 @@ a {
   .w100px_630 {
     width: 100px !important; } }
 @media screen and (max-width: 480px) {
+  #tabs-1 {
+    padding: 0 !important;
+    width: 100% !important; }
+
+  .menu_item div:first-child {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .menu_item div {
+    overflow: unset !important; }
+
   .header__nav div:last-child {
     display: none; }
 
@@ -341,12 +356,21 @@ a {
   .dumplings_img2 {
     height: 50vh !important; }
 
+  .invisible_block_480 {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    width: 80px; }
+
   .w85px_480 {
     width: 85px !important; } }
 @media screen and (max-width: 420px) {
   .tab_mob__img_grid div img {
     width: 150px !important;
-    height: 150px !important; } }
+    height: 150px !important; }
+
+  .dumplings_img2 {
+    height: 70vh !important; } }
 @media screen and (max-width: 400px) {
   .w64wv_780 {
     height: 70vh !important; } }

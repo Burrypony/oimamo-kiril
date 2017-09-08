@@ -100,7 +100,7 @@
   .dumplings_img2
     height: 65vh !important
   .spice_img
-    height: 150px !important
+    height: 125px !important
     width: auto !important
   .dots_block
     display: inline-flex !important
@@ -125,6 +125,19 @@
   .w100px_630
     width: 100px !important
 @media screen and(max-width:480px)
+  #tabs-1
+    padding: 0 !important
+    width: 100% !important
+  .menu_item
+    div
+      &:first-child
+        width: 100%
+        display: flex
+        justify-content: space-between
+    div
+      overflow: unset !important
+
+
   .header__nav
     div
       &:last-child
@@ -142,6 +155,9 @@
       display: none !important
   .dumplings_img2
     height: 50vh !important
+  .invisible_block_480
+    order: -1
+    width: 80px
 
   .w85px_480
     width: 85px !important
@@ -151,9 +167,13 @@
       img
         width: 150px !important
         height: 150px !important
+  .dumplings_img2
+    height: 70vh !important
+
 @media screen and(max-width:400px)
   .w64wv_780
     height: 70vh !important
+
 @media screen and(max-width:350px)
   .tab_mob__img_grid
     div
