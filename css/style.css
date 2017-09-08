@@ -21,8 +21,7 @@ a {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
-  -ms-flex-wrap: nowrap !important;
-      flex-wrap: nowrap !important;
+  white-space: nowrap !important;
   -webkit-box-pack: center !important;
       -ms-flex-pack: center !important;
           justify-content: center !important;
@@ -212,7 +211,8 @@ a {
     height: 780px !important; } }
 @media screen and (max-width: 1024px) {
   a {
-    width: auto !important; }
+    width: auto !important;
+    text-decoration: none !important; }
 
   .w150px_1024 {
     width: 150px !important; }
@@ -401,7 +401,13 @@ a {
     height: 120px !important; }
 
   .contacts {
-    font-size: 23px !important; } }
+    font-size: 23px !important; }
+
+  .margin_top_35px_420 {
+    margin-top: 35px; }
+
+  .padding_top_5px_420 {
+    padding-top: 5px; } }
 @media screen and (max-width: 400px) {
   .w64wv_780 {
     height: 70vh !important; } }
