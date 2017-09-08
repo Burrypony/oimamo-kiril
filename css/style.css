@@ -23,7 +23,10 @@ a {
   display: flex !important;
   -ms-flex-wrap: nowrap !important;
       flex-wrap: nowrap !important;
-  min-width: 100px !important; }
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  width: auto !important; }
 
 .flex {
   display: -webkit-box !important;
