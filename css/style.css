@@ -22,7 +22,8 @@ a {
   display: -ms-flexbox !important;
   display: flex !important;
   -ms-flex-wrap: nowrap !important;
-      flex-wrap: nowrap !important; }
+      flex-wrap: nowrap !important;
+  min-width: 100px !important; }
 
 .flex {
   display: -webkit-box !important;
