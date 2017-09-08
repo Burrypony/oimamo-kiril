@@ -25,7 +25,8 @@ a {
   -webkit-box-pack: center !important;
       -ms-flex-pack: center !important;
           justify-content: center !important;
-  width: auto !important; }
+  width: auto !important;
+  white-space: none !important; }
 
 .flex {
   display: -webkit-box !important;
