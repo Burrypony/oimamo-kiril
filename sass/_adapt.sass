@@ -95,11 +95,7 @@
 
   .spice_img
     height: 175px !important
-@media screen and(max-width:1024px) and (min-width:940px)
-  ul
-    overflow: scroll !important
-    li
-      padding-right: 15px !important
+
 
 @media screen and(max-width:940px)
   .display_none_940
@@ -135,6 +131,11 @@
     display: block !important
   .menu_item
     align-items: flex-start !important
+  @media screen and(max-width:780px) and (min-width:630px)
+    ul
+      overflow: scroll !important
+      li
+        padding-right: 15px !important
 @media screen and(max-width:630px)
   .main_paragraph
     font-size: 14px !important
