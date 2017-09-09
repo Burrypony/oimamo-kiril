@@ -82,11 +82,10 @@
       }
     });
   //MOBILE_MENU
-  :
-  $(document).delegate('.open', 'click', function(event){
-        $(this).addClass('oppenned');
-        event.stopPropagation();
-      })
+      $(document).delegate('.open', 'click', function(event){
+            $(this).addClass('oppenned');
+            event.stopPropagation();
+          })
       $(document).delegate('.oppenned', 'click', function(event) {
         $('.oppenned').removeClass('oppenned');
       })

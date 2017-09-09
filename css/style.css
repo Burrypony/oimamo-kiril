@@ -214,7 +214,7 @@ i {
     width: 45vw !important; } }
 @media screen and (max-width: 1138px) {
   .dumplings_img2 {
-    height: 40vw !important; } }
+    width: 40vw !important; } }
 @media screen and (max-width: 1024px) {
   a {
     width: auto !important; }
@@ -407,7 +407,8 @@ i {
     height: 150px !important; }
 
   .dumplings_img2 {
-    width: 110vw !important; }
+    width: 100vw !important;
+    height: 100% !important; }
 
   .spice_img {
     margin-top: 65px !important; }
@@ -519,7 +520,7 @@ header {
   width: 50%; }
 
 .dumplings_img2 {
-  height: auto !important;
+  height: auto;
   width: 70vw; }
 
 .spice_img {
