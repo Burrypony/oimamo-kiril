@@ -315,7 +315,8 @@ i {
     padding-top: 80px; }
 
   .dumplings_img2 {
-    width: 80vw !important; }
+    width: 80vw !important;
+    height: 100% !important; }
 
   .spice_img {
     height: 125px !important;
@@ -520,7 +521,7 @@ header {
   width: 50%; }
 
 .dumplings_img2 {
-  height: auto;
+  height: 100% !important;
   width: 70vw; }
 
 .spice_img {
