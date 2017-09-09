@@ -31,6 +31,9 @@ a {
   font-size: 16px !important;
   text-decoration: none !important; }
 
+i {
+  text-decoration: none !important; }
+
 .flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -740,7 +743,8 @@ header {
           flex-direction: column; }
 
 .fa {
-  font-size: 20px; }
+  font-size: 20px;
+  text-decoration: none !important; }
 
 #tabs {
   width: 86vw !important;
