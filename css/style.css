@@ -160,6 +160,8 @@ i {
     position: absolute;
     left: calc(100% + 5px);
     top: 40%; }
+  .ui-state-active .ui-tabs .ui-tabs-nav .ui-tabs-ancho {
+    padding: 0.5em 2em !important; }
 
 @media screen and (max-width: 1348px) {
   .hide_1348 {
@@ -292,6 +294,9 @@ i {
 
   .spice_img {
     height: 175px !important; } }
+@media screen and (max-width: 1024px) and (min-width: 940px) {
+  ul li {
+    padding-right: 15px !important; } }
 @media screen and (max-width: 940px) {
   .display_none_940 {
     display: none !important; }
