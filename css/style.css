@@ -10,7 +10,8 @@ ul {
   margin: 0;
   padding: 0; }
   ul li {
-    list-style: none; }
+    list-style: none;
+    text-decoration: none !important; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
@@ -27,7 +28,8 @@ a {
           justify-content: center !important;
   width: auto !important;
   white-space: none !important;
-  font-size: 16px !important; }
+  font-size: 16px !important;
+  text-decoration: none !important; }
 
 .flex {
   display: -webkit-box !important;
@@ -220,7 +222,7 @@ a {
     width: 55% !important; }
 
   .dumplings_img2 {
-    height: 75vh !important; }
+    height: 600px !important; }
 
   .top_logo_sizes {
     width: 170px !important; }
@@ -299,7 +301,7 @@ a {
     padding-top: 80px; }
 
   .dumplings_img2 {
-    height: 920px !important; }
+    height: 600px !important; }
 
   .spice_img {
     height: 125px !important;
@@ -388,7 +390,7 @@ a {
     height: 150px !important; }
 
   .dumplings_img2 {
-    height: 70vh !important; }
+    height: 400px !important; }
 
   .spice_img {
     margin-top: 65px !important; }
