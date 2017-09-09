@@ -1,21 +1,24 @@
 (function() {
   $(document).ready(function () {
-    //HOVER add dots to menu navigation list
 
-    $(".hover_add_dots").hover(
-
-      function () {
-        $(".ui-state-active").addClass("clear_before");
-      },
-      function () {
-        $(".ui-state-active").removeClass("clear_before");
-      }
-
-    );
-
-    $(".hover_add_dots").click(function () {
-      $(".clear_before").removeClass("clear_before");
-    });
+    // if($(window).width > 480){
+    //   //HOVER add dots to menu navigation list
+    //
+    //   $(".hover_add_dots").hover(
+    //
+    //     function () {
+    //       $(".ui-state-active").addClass("clear_before");
+    //     },
+    //     function () {
+    //       $(".ui-state-active").removeClass("clear_before");
+    //     }
+    //
+    //   );
+    //
+    //   $(".hover_add_dots").click(function () {
+    //     $(".clear_before").removeClass("clear_before");
+    //   });
+    // }
 
 
 
@@ -78,6 +81,18 @@
         }
       }
     });
+  //MOBILE_MENU
+$(document).delegate('.open', 'click', function(event){
+			$(this).addClass('oppenned');
+			event.stopPropagation();
+		})
+		$(document).delegate('body', 'click', function(event) {
+			$('.open').removeClass('oppenned');
+		})
+		$(document).delegate('.cls', 'click', function(event){
+			$('.open').removeClass('oppenned');
+			event.stopPropagation();
+		});
 
 
 
