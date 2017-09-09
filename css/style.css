@@ -189,7 +189,7 @@ i {
     margin-top: 5px !important; }
 
   .dumplings_img2 {
-    height: 1250px !important; }
+    width: 50vw !important; }
 
   .phali_img {
     height: 350px !important; }
@@ -210,10 +210,10 @@ i {
       white-space: nowrap; } }
 @media screen and (max-width: 1284px) {
   .dumplings_img2 {
-    height: 875px !important; } }
+    width: 45vw !important; } }
 @media screen and (max-width: 1138px) {
   .dumplings_img2 {
-    height: 780px !important; } }
+    height: 40vw !important; } }
 @media screen and (max-width: 1024px) {
   a {
     width: auto !important; }
@@ -225,7 +225,7 @@ i {
     width: 55% !important; }
 
   .dumplings_img2 {
-    height: 600px !important; }
+    height: 35vw !important; }
 
   .top_logo_sizes {
     width: 170px !important; }
@@ -289,7 +289,10 @@ i {
     display: none !important; }
 
   .img_175px_940 {
-    height: 175px !important; } }
+    height: 175px !important; }
+
+  .dumplings_img2 {
+    width: 55vw !important; } }
 @media screen and (max-width: 780px) {
   .hide_780 {
     display: none !important; }
@@ -304,7 +307,7 @@ i {
     padding-top: 80px; }
 
   .dumplings_img2 {
-    height: 600px !important; }
+    width: 80vw !important; }
 
   .spice_img {
     height: 125px !important;
@@ -339,7 +342,10 @@ i {
     width: 100% !important; }
 
   .w100px_630 {
-    width: 100px !important; } }
+    width: 100px !important; }
+
+  .dumplings_img2 {
+    width: 85vw !important; } }
 @media screen and (max-width: 480px) {
   #tabs-1 {
     padding: 0 !important;
@@ -374,7 +380,7 @@ i {
     display: none !important; }
 
   .dumplings_img2 {
-    height: 50vh !important; }
+    width: 90vw !important; }
 
   .invisible_block_480 {
     -webkit-box-ordinal-group: 0;
@@ -393,7 +399,7 @@ i {
     height: 150px !important; }
 
   .dumplings_img2 {
-    height: 400px !important; }
+    width: 110vw !important; }
 
   .spice_img {
     margin-top: 65px !important; }
@@ -505,8 +511,8 @@ header {
   width: 50%; }
 
 .dumplings_img2 {
-  height: 1350px;
-  width: auto; }
+  height: auto !important;
+  width: 70vw; }
 
 .spice_img {
   height: 200px;
