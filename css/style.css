@@ -133,7 +133,7 @@ i {
   border: 0 !important; }
 
 .ui-state-active a, .ui-state-active a:link {
-  color: black !important;
+  color: black;
   outline: none !important; }
 
 .ui-state-active {
@@ -217,8 +217,7 @@ i {
     height: 40vw !important; } }
 @media screen and (max-width: 1024px) {
   a {
-    width: auto !important;
-    color: #12acbc !important; }
+    width: auto !important; }
 
   .w150px_1024 {
     width: 150px !important; }
@@ -573,7 +572,7 @@ header {
     height: 8px !important;
     background-color: #12acbc !important;
     border-radius: 50% !important;
-    display: block !important;
+    display: block;
     position: absolute !important;
     left: -20px !important;
     top: 40% !important; }
@@ -583,7 +582,7 @@ header {
     height: 8px !important;
     background-color: #12acbc !important;
     border-radius: 50% !important;
-    display: block !important;
+    display: block;
     position: absolute !important;
     left: calc(100% + 10px) !important;
     top: 40% !important; }
